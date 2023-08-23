@@ -10,7 +10,7 @@
   font-family: 'Press Start 2P', cursive;
 }
 html {
-  background-image: url("background.jpg");
+  background-image: url("Assets/background.jpg");
   letter-spacing: 1px;
 }
 .rainbow-box {
@@ -34,7 +34,7 @@ a{
   
   /*header do site*/
   .header {
-    background-image: url("header.jpg");
+    background-image: url("Assets/header.jpg");
     background-position: right;
     overflow: hidden;
     padding: 20px 10px;
@@ -105,6 +105,7 @@ a{
     padding: 20px;
     margin-left: 30px;
   }
+
   /*Corpo do post*/
   .postCard{
     border: solid 5px;
@@ -115,18 +116,6 @@ a{
     text-align: center;
     justify-content: center;
   }
-  .article-image2{
-   display: flow-root;
-    margin-left: 40%;
-  }
-  .rainbow-box2 {
-    background-color: #302244;
-    border: 5px solid transparent;
-    border-image: linear-gradient(to bottom right, #ff0000
-    0%, #f28f24 25%, #fec837 50%, #0fec08 75%, #2380fa 100%);
-    border-image-slice: 1;
-  margin-left: 40%;
-  }
   .body-article {
     margin: 30px;
     text-align: start;
@@ -134,36 +123,11 @@ a{
     
     }
     
-    /*Seesão de comentários*/
-    .comments{
-      background-color: #59349e;
-      padding: 15px;
-      margin: 5px;
-      border: solid 5px;
-    }
-    .individual-comment{
-      border: solid 4px;
-      border-spacing: 5px;
-      margin: 10px;
-    }
-    .perfil-image{
-      padding: 5px;
-      width: 50px;
-      height: 50px;
-    }
-    .user{
-     display:flex;
-     align-items: center;
-     justify-content: left;
-    }
-    blockquote{
-      padding: 9px;
-      font-size: small;
-    }
+    /*Rodapé da Pagina */
   .footer{
     float:left;
     width: 100%;
-    background-image: url("footer.png");
+    background-image: url("Assets/footer.png");
     background-position: center;
     background-size: 18%;
     font-size: 14px;
